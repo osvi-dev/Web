@@ -101,7 +101,7 @@ section{
 
 section p{
     font-family: 'Coming Soon', cursive;
-    margin-top: 150px;
+    margin-top: 130px;
     position: absolute;
     width: 545px;
     height: 340px;
@@ -123,5 +123,13 @@ section p{
     text-align: center;
     align-items: center;
     font-size: 25px;
-    margin-top: 450px;
+    margin-top: 420px;
+}
+/* Estilos para la barra inferior */
+.barra-inferior {
+    background-color: #9592DE;
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
