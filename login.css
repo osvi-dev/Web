@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    clear: both;
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    font-family: 'Concert One', cursive;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.logo img{
+    height: 100px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a{
+    font-family: 'Gochi Hand', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    font-size: normal;
+    padding-right: 30px;
+    padding-left: 30px;
+    
+}
+
+nav button{
+    font-family: 'Gochi Hand', cursive;
+    width: 122px; /* 122*/
+    height: 50px; /* 122*/
+    border-radius: 20px;
+    flex-shrink: 0;
+    background-color: #201E59;
+    border: none;
+    color:white;
+    cursor: pointer;
+    font-size: 20px;
+
+
+}
+
+nav button:hover{
+    background-color: #322f81;
+}
+nav button:active{
+    background-color: #4340a3;
+}
+header{
+    background-color: #B494FF;
+}
+
+body{
+    background-color: #BACBD98C;
+}
+
+section{
+    font-family: 'Coming Soon', cursive;
+    display: flex;
+    flex-direction: row;
+}
+.perrito img{
+    height: 500px;
+    margin-right: 40px;  
+
+}
+
+.barra-inferior {
+    background-color: #9592DE;
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.login{
+    margin-top: 50px;
+    margin-left: 500px;
+    width: 332px;
+    height: 422px; 
+    border-radius: 40px;
+    background: #B494FF; 
+}
+

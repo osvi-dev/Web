@@ -68,7 +68,7 @@ header{
 }
 
 body{
-    background-color: #BACBD9;
+    background-color: #BACBD98C;
 }
 
 section{
@@ -81,7 +81,6 @@ section{
     margin-right: 40px;  
 
 }
-
 
 .sobreNosotros{
     display: flex;
@@ -132,4 +131,70 @@ section p{
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+
+.hueso-arr{
+    position: absolute;
+    margin: 20px ;
+}
+
+.hueso-ab{
+    position: absolute;
+    margin: 420px ;
+    transform: rotate(90deg);
+}
+
+.huella-izq{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 720px;
+    transform: rotate(-36.106deg); 
+}
+
+.huella-der{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 1280px;
+    transform: rotate(28.819deg); 
+}
+
+.huellas1{
+    position: absolute;
+}
+
+
+/* Estilos sobre del login*/
+
+.login{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 530px;
+    width: 332px;
+    height: 422px; 
+    border-radius: 40px;
+    background: #B494FF;
+}
+.login .perro-login{
+    width: 208px;
+    height: 192px; 
+    position: absolute;
+    border-radius: 50%;
+    background: #6E53AD; 
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.login .user{
+    padding: 0;
+    display: block;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+.login .pass{
+    padding: 0;
+    position: absolute;
+    display: block;
+    margin-top: 50px;
 }
