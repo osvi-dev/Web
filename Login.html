@@ -26,18 +26,29 @@
         </div>
     </header>
     <div class="login">
-        <img class="perro-login" src="./imgs/Perrito-login.png" width="198px" height="177px">
-        <form>
+        <h1>Iniciar Sesión</h1>
+        <form method="post">
+            <div class="perro-login">
+                <img src="./imgs/Perrito-login.png" alt="Perro de inicio de sesión">
+            </div>
             <div class="user">
+                <ion-icon name="mail-outline"></ion-icon>
                 <label for="username">Usuario</label>
-                <input type="text" placeholder="Usuario">
+                <input type="text" placeholder="Usuario" required>
             </div>
             <div class="pass">
+                <ion-icon name="lock-closed-outline"></ion-icon>
                 <label for="password">Contraseña</label>
-                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Contraseña" required>
             </div>
-            <input type="submit" value="Log in">
-            
+            <div class="recordar">
+                <label for=""><input type="checkbox">Recordar</label>
+                <a href="#"></a>
+            </div>
+            <div class="register">
+                No Cuento Con Una Cuenta <a href="#">Registrarme</a>
+            </div>
+            <input type="submit" value="Iniciar Sesión">
         </form>
     </div>
     <!-- <footer class="barra-inferior">
